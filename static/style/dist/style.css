@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Jura&display=swap");
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Jura', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.header {
+  margin-bottom: 12.5px;
+}
+.header .links {
+  display: flex;
+}
+.header .links .link:first-child {
+  flex-grow: 6;
+  font-size: 24px;
+  font-weight: 900;
+}
+.header .links .link a i {
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+}
+.main-container {
+  max-width: 1024px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.items {
+  padding: 0;
+}
+.items .item i {
+  margin-right: 12px;
+}
