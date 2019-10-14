@@ -80,7 +80,7 @@ defaultHeader = header links
       --
       , HeaderLink
         (ExternalLink 
-        "https://join.slack.com/t/fpis/shared_invite/enQtNTE0MTk3NzQ5NDc5LTY1NDgyNjJkOTc4ZmM1YTU5OGFjMGVlZjA2Njc1YWFkNWNlNGQ0M2E0ZjBiYjhkYzRhMDIxYzBlMzc3ZDA2MzI" 
+        "https://join.slack.com/t/fpis/shared_invite/enQtNTE0MTk3NzQ5NDc5LTQwZWZjMjllNjVlODBhYWUyMGQ3MDUzZjg0MzRlYzEwYzEyYzJjOTI4NzMyZTIzZTU3NjQ5OTNjYTkyMWNmYTM" 
         "Slack" )
         (Just "fab fa-slack")
       --
