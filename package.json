@@ -1,10 +1,16 @@
 {
-  "name": "rit.ai",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.8"
+  },
+  "private": true,
+  "name": "ai",
   "version": "0.1.0",
+  "description": "Website for the advancement of computer science in Iceland",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4",
-    "pug": "^2.0.3"
-  }
+  "scripts": {
+    "stage": "npx @cloudflare/wrangler publish",
+    "release": "npx @cloudflare/wrangler publish --env ai"
+  },
+  "author": "Bjartur Thorlacius",
+  "license": "MIT"
 }

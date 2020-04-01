@@ -1,3 +1,6 @@
+wrangler.toml
+/dist
+/worker
 /bower_components/
 /node_modules/
 /.pulp-cache/
@@ -8,6 +11,7 @@
 /.purs*
 /.psa*
 /.spago
+
 
 .env
 .cache
